@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "data-source.ts",
+    "src/**/*.ts",
+    "migrations/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*spec.ts"
+  ]
+}
